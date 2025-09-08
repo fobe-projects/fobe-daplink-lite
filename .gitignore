@@ -1,12 +1,8 @@
 .mrs/
 .settings/
 /*/obj/*
-!/*/obj/*.bin
-!/*/obj/*.hex
 
 /*/out/*
-!/*/out/*.bin
-!/*/out/*.hex
 DAPLink.uvguix.*
 JLinkLog.txt
 JLinkSettings.ini
