@@ -70,7 +70,7 @@ const uint8_t  USBD_ConfigDescriptor[] = {
     USBD_SIZE_REPORT_DESC, 0x00,        // Total length of report descriptor.
 #endif
 
-    // CMSIS-DAP v2 WinUSB ÒªÇóµÚÒ»¸ö¶ËµãÊÇ Bulk OUT£¬µÚ¶þ¸ö¶ËµãÊÇ Bulk IN
+    // CMSIS-DAP v2 WinUSB Òªï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ Bulk OUTï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ Bulk IN
     // EP Descriptor: interrupt out.
     USBD_SIZE_ENDPOINT_DESC,            // bLength
     ENDPOINT_DESCRIPTOR,                // bDescriptorType
@@ -188,31 +188,32 @@ const uint8_t USBD_StringLangID[] = {
 
 
 const uint8_t USBD_StringVendor[] = {
-	USBD_SIZE_STRING_VENDOR,    
-	STRING_DESCRIPTOR,
-	'X', 0, 'I', 0, 'V', 0, 'N', 0, '1', 0, '9', 0, '8', 0, '7', 0
+    USBD_SIZE_STRING_VENDOR,
+    STRING_DESCRIPTOR,
+    'F', 0, 'o', 0, 'B', 0, 'E', 0, ' ', 0, 'S', 0, 't', 0, 'u', 0, 'd', 0, 'i', 0, 'o', 0
 };
 
 
 const uint8_t USBD_StringProduct[] = {
     USBD_SIZE_STRING_PRODUCT,
     STRING_DESCRIPTOR,
-    'X', 0, 'V', 0, '-', 0, 'L', 0, 'i', 0, 'n', 0, 'k', 0, ' ', 0, 'C', 0, 'M', 0, 'S', 0, 'I', 0, 'S', 0, '-', 0, 'D', 0, 'A', 0, 'P', 0
+    'F', 0, 'o', 0, 'B', 0, 'E', 0, ' ', 0, 'C', 0, 'M', 0, 'S', 0, 'I', 0, 'S', 0, '-', 0, 'D', 0, 'A', 0, 'P', 0, ' ', 0, 'L', 0, 'i', 0, 't', 0, 'e', 0
 };
 
 
 uint8_t USBD_StringSerial[] = {
-	USBD_SIZE_STRING_SERIAL,          
-	STRING_DESCRIPTOR,
-	'0', 0, '1', 0, '2', 0, '3', 0, '4', 0, '5', 0, '6', 0, '7', 0, '8', 0, '9', 0, 'A', 0, 'B', 0
+    USBD_SIZE_STRING_SERIAL,
+    STRING_DESCRIPTOR,
+    '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0, '0', 0
 };
 
 
 const uint8_t USBD_StringInterface[] = {
     USBD_SIZE_STRING_PRODUCT,
     STRING_DESCRIPTOR,
-    'X', 0, 'V', 0, '-', 0, 'L', 0, 'i', 0, 'n', 0, 'k', 0, ' ', 0, 'C', 0, 'M', 0, 'S', 0, 'I', 0, 'S', 0, '-', 0, 'D', 0, 'A', 0, 'P', 0
+    'F', 0, 'o', 0, 'B', 0, 'E', 0, ' ', 0, 'C', 0, 'M', 0, 'S', 0, 'I', 0, 'S', 0, '-', 0, 'D', 0, 'A', 0, 'P', 0, ' ', 0, 'L', 0, 'i', 0, 't', 0, 'e', 0
 };
+
 
 
 const uint8_t USBD_HidRepDesc[] =
