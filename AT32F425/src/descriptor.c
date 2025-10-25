@@ -29,7 +29,7 @@ ALIGNED_HEAD static uint8_t g_device_descriptor[USB_DEVICE_DESC_LEN] ALIGNED_TAI
 #ifdef DAP_FW_V1
 	0x00, 0x02,             			// bcdUSB
 #else
-	0x01, 0x02,             			// bcdUSB
+	0x10, 0x02,             			// bcdUSB
 #endif
 	0x00,               				// bDeviceClass
 	0x00,               				// bDeviceSubClass

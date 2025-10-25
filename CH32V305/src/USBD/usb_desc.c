@@ -55,7 +55,7 @@ const uint8_t USB_DevDesc[] =
 #ifdef DAP_FW_V1
     0x00, 0x02,                         // bcdUSB
 #else
-    0x01, 0x02,                         // bcdUSB
+    0x10, 0x02,                         // bcdUSB
 #endif
     0x00,                               // bDeviceClass
     0x00,                               // bDeviceSubClass
